@@ -1137,6 +1137,35 @@ p.has-drop-cap:not(:focus):first-letter {
   }
 }
 
+.custom-carousel {
+  height: 500px;
+}
+
+.custom-carousel .carousel-inner,
+.custom-carousel .carousel-item,
+.custom-carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-carousel .carousel-item {
+  transition: transform 0.9s ease-in-out;
+}
+
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.small-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 .comment-author .says, .comment_container-author .says {
   display: none;
 }
@@ -1559,14 +1588,14 @@ body.has-no-comments .comment-respond {
 
 .twenty-percent-bg-solitaire {
   background-color: transparent;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #FEF6E9), color-stop(80%, #ffffff));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #EDE6DC), color-stop(80%, #ffffff));
   background: -webkit-linear-gradient(top, #FEF6E9 80%, #ffffff 80%);
   background: linear-gradient(180deg, #FEF6E9 80%, #ffffff 80%);
 }
 
 @media (min-width: 992px) {
   .twenty-percent-bg-solitaire {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, #FEF6E9), color-stop(75%, #ffffff));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, #EDE6DC), color-stop(75%, #ffffff));
     background: -webkit-linear-gradient(top, #FEF6E9 75%, #ffffff 75%);
     background: linear-gradient(180deg, #FEF6E9 75%, #ffffff 75%);
   }
@@ -1574,14 +1603,14 @@ body.has-no-comments .comment-respond {
 
 .seventy-five-percent {
   background-color: transparent;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #FEF6E9), to(#ffffff));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #EDE6DC), to(#ffffff));
   background: -webkit-linear-gradient(top, #FEF6E9 100%, #ffffff 100%);
   background: linear-gradient(180deg, #FEF6E9 100%, #ffffff 100%);
 }
 
 @media (min-width: 992px) {
   .seventy-five-percent {
-    background: -webkit-gradient(linear, left top, right top, color-stop(70%, #FEF6E9), color-stop(70%, #ffffff));
+    background: -webkit-gradient(linear, left top, right top, color-stop(70%, #EDE6DC), color-stop(70%, #ffffff));
     background: -webkit-linear-gradient(left, #FEF6E9 70%, #ffffff 70%);
     background: linear-gradient(90deg, #FEF6E9 70%, #ffffff 70%);
   }
@@ -1589,7 +1618,7 @@ body.has-no-comments .comment-respond {
 
 .seventy-five {
   background-color: transparent;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #FEF6E9), color-stop(70%, #ffffff));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #EDE6DC), color-stop(70%, #ffffff));
   background: -webkit-linear-gradient(top, #FEF6E9 70%, #ffffff 70%);
   background: linear-gradient(180deg, #FEF6E9 70%, #ffffff 70%);
 }
