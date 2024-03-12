@@ -609,7 +609,27 @@ p.has-drop-cap:not(:focus):first-letter {
   font-weight: bold;
   color: #2C2E3F;
 }
+.entry-media {
+  position: relative;
+  padding-bottom: 75%; /* Adjust this value to control the height */
+  height: 0;
+  overflow: hidden;
+}
 
+.entry-media img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .entry-media {
+    padding-bottom: 100%; /* Adjust the aspect ratio for smaller screens */
+  }
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -1093,7 +1113,50 @@ p.has-drop-cap:not(:focus):first-letter {
     padding-top: 4em;
   }
 }
+.container .row .col-md-3 .bg-light {
+  background-color: #242F39 !important;
+  color: white;
+}
 
+.container .row .col-md-3:nth-child(2) .bg-light {
+  background-color: #3B4B5D !important;
+}
+
+.container .row .col-md-3:nth-child(3) .bg-light {
+  background-color: #4A6075 !important;
+}
+
+.container .row .col-md-3:nth-child(4) .bg-light {
+  background-color: #607D99 !important;
+}
+
+.container .row .col-6 .circle.bg-light p {
+  color: white;
+}
+/* First Circle */
+.container .row .col-6:nth-child(1) .circle.bg-light {
+  background-color: #607D99 !important; 
+}
+
+/* Second Circle */
+.container .row .col-6:nth-child(2) .circle.bg-light {
+  background-color: #4A6075 !important; 
+}
+
+/* Third Circle */
+.container .row .col-6:nth-child(3) .circle.bg-light {
+  background-color: #3B4B5D !important; 
+}
+
+/* Fourth Circle */
+.container .row .col-6:nth-child(4) .circle.bg-light {
+  background-color: #242F39 !important; 
+}
+
+/* Fifth Circle */
+.container .row .col-6:nth-child(5) .circle.bg-light {
+  background-color: #1C252D !important; 
+}
 .comments-title {
   margin-bottom: 2rem;
   color: #999999;
