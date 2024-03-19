@@ -659,11 +659,12 @@ p.has-drop-cap:not(:focus):first-letter {
 .col-lg-4:nth-child(3n+1) .square {
   background-color: #425669; 
 }
+/*425669  */
 .col-lg-4:nth-child(3n) .square {
-  background-color: #9A6D5A; 
+  background-color:  #58758B; 
 }
 .col-lg-4:nth-child(3n+2) .square {
-  background-color: #58758B; 
+  background-color:#9A6D5A; 
 }
 .square p {
   margin: 0;
@@ -1114,20 +1115,20 @@ p.has-drop-cap:not(:focus):first-letter {
   }
 }
 .container .row .col-md-3 .bg-light {
-  background-color: #242F39 !important;
+  background-color: #58758B !important;
   color: white;
 }
 
 .container .row .col-md-3:nth-child(2) .bg-light {
-  background-color: #3B4B5D !important;
+  background-color: #9A6D5A !important;
 }
 
 .container .row .col-md-3:nth-child(3) .bg-light {
-  background-color: #4A6075 !important;
+  background-color: #58758B !important;
 }
 
 .container .row .col-md-3:nth-child(4) .bg-light {
-  background-color: #607D99 !important;
+  background-color: #9A6D5A !important;
 }
 
 .container .row .col-6 .circle.bg-light p {
@@ -1140,22 +1141,22 @@ p.has-drop-cap:not(:focus):first-letter {
 
 /* Second Circle */
 .container .row .col-6:nth-child(2) .circle.bg-light {
-  background-color: #4A6075 !important; 
+  background-color: #9A6D5A !important; 
 }
 
 /* Third Circle */
 .container .row .col-6:nth-child(3) .circle.bg-light {
-  background-color: #3B4B5D !important; 
+  background-color: #607D99 !important; 
 }
 
 /* Fourth Circle */
 .container .row .col-6:nth-child(4) .circle.bg-light {
-  background-color: #242F39 !important; 
+  background-color: #9A6D5A !important; 
 }
 
 /* Fifth Circle */
 .container .row .col-6:nth-child(5) .circle.bg-light {
-  background-color: #1C252D !important; 
+  background-color: #607D99 !important; 
 }
 .comments-title {
   margin-bottom: 2rem;
